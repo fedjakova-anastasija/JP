@@ -1,0 +1,12 @@
+Customer\Basket.class
+Report\Bill.class
+Supermarket\CashDesk.class
+Supermarket\Product.class
+Supermarket\Supermarket.class
+PaymentMethod\PaymentType.class
+SupermarketSimulator.class
+Customer\Customer.class
+Discount\Discount.class
+PaymentMethod\PaymentMethod.class
+Customer\CustomerType.class
+Report\Report.class
