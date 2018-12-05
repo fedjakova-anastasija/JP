@@ -11,7 +11,7 @@ class SupermarketSimulator {
         List<String> customerTypes = Arrays.asList("child", "adult", "retired");
         List<String> paymentMethods = Arrays.asList("card", "cash", "bonus");
 
-        System.out.println(LocalDateTime.now().withNano(0) + " Supermarket products have been formed:");
+        System.out.println(LocalDateTime.now().withNano(0) + " SSupermarket products have been formed:");
         Random random = new Random();
         Supermarket supermarket = new Supermarket();
         boolean alcoholType = false;
