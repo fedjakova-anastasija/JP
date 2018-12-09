@@ -1,7 +1,7 @@
 package Customer;
 
-import PaymentMethod.PaymentType;
 import PaymentMethod.PaymentMethod;
+import PaymentMethod.PaymentType;
 import Supermarket.Product;
 
 public class Customer {
