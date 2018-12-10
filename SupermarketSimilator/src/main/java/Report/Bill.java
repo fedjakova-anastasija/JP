@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bill {
+public class Bill implements IBill{
     private BigDecimal amount = new BigDecimal(0);
     private List<Product> productsList;
 
@@ -32,5 +32,4 @@ public class Bill {
     private void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
-
 }

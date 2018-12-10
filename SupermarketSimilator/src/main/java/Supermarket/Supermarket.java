@@ -1,13 +1,14 @@
 package Supermarket;
 
 import Customer.Customer;
+import Discount.Discount;
 import Report.Report;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Supermarket {
+public class Supermarket implements ISupermarket{
     private List<Customer> customersList = new ArrayList<>();
     private List<Product> productsList = new ArrayList<>();
     private CashDesk cashDesk = new CashDesk();
@@ -54,8 +55,8 @@ public class Supermarket {
         this.productsList.set(id, product);
     }
 
-    public void ToCashDesk(Integer customerIndex) {
-        this.report.setBillsList(this.cashDesk.getBill(getCustomer(customerIndex)));
+    public void ToCashDesk(Integer customerIndex, Discount discount) {
+        this.report.setBillsList(this.cashDesk.getBill(getCustomer(customerIndex), discount));
         this.customersList.set(customerIndex, null);
     }
 }

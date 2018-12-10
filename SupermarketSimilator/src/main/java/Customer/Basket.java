@@ -4,7 +4,7 @@ import Supermarket.Product;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Basket {
+public class Basket implements IBasket {
     private List<Product> productsList = new ArrayList<>();
 
     public List<Product> getProducts() {

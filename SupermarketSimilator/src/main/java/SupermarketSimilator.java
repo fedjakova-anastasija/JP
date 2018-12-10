@@ -1,4 +1,5 @@
 import Customer.Customer;
+import Discount.Discount;
 import Supermarket.Product;
 import Supermarket.Supermarket;
 
@@ -6,7 +7,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 class SupermarketSimilator {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         List<String> productTypes = Arrays.asList("product#0", "product#1", "product#2", "product#3", "product#4", "product#5");
         //List<String> productTypes = Arrays.asList("product#4", "product#5");
         List<String> customerTypes = Arrays.asList("child", "adult", "retired");
@@ -33,7 +34,7 @@ class SupermarketSimilator {
 
         double discount = ((random.nextInt(50) + 1));
         String productValue = supermarket.getProduct(random.nextInt(supermarket.getProductsCount())).getType();
-        supermarket.getCashDesk().addDiscount(discount);
+        Discount newDiscount = new Discount(discount, productValue);
         System.out.println(LocalDateTime.now().withNano(0) + " DISCOUNT FOR RETIRED " + discount + "% on " + productValue);
 
         while (isSuperMarketNotEmpty(supermarket)) {
@@ -65,7 +66,7 @@ class SupermarketSimilator {
                 Customer customer = supermarket.getCustomer(j);
                 if (customer != null) {
                     if (supermarket.getCustomer(j).getBasket().getProducts().size() > random.nextInt(2)) {
-                        supermarket.ToCashDesk(j);
+                        supermarket.ToCashDesk(j, newDiscount);
                         System.out.println(LocalDateTime.now().withNano(0) + " Customer " + customer.getType().toString().toLowerCase() + " 'customer#" + j + "' at the cash desk, amount to pay: " + supermarket.getCashDesk().getAmount());
                         System.out.println(LocalDateTime.now().withNano(0) + " Customer " + customer.getType().toString().toLowerCase() + " 'customer#" + j + "' paid " + supermarket.getCashDesk().getAmount() + " by " + customer.getPaymentMethod().toString().toLowerCase());
 

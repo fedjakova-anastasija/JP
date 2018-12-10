@@ -2,7 +2,7 @@ package Supermarket;
 
 import java.math.BigDecimal;
 
-public class Product implements Cloneable {
+public class Product implements IProduct, Cloneable {
     private String type;
     private Integer count;
     private BigDecimal price = new BigDecimal(0);
@@ -31,7 +31,7 @@ public class Product implements Cloneable {
         this.count = count;
     }
 
-    void setPrice(Integer price) {
+    public void setPrice(Integer price) {
         this.price = new BigDecimal(price);
     }
 
@@ -39,7 +39,7 @@ public class Product implements Cloneable {
         return (Product) super.clone();
     }
 
-    Boolean alcoholType() {
+    public Boolean alcoholType() {
         return this.alcoholType;
     }
 }

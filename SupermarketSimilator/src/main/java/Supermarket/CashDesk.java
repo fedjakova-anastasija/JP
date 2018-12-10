@@ -7,22 +7,11 @@ import Report.Bill;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
-public class CashDesk {
+public class CashDesk implements ICashDesk {
     private BigDecimal cashAmount = new BigDecimal(0);
-    private List<Discount> discountsList = new ArrayList<>();
 
-    private Double getDiscountCoefficient(Customer customer, Product product) {
-        double percent = 1;
-        for (Discount discount : this.discountsList) {
-            percent *= discount.getDiscountForRetired(customer, discount.getDiscount());
-        }
-        return percent;
-    }
-
-    Bill getBill(Customer customer) {
+    public Bill getBill(Customer customer, Discount discount) {
         this.cashAmount = new BigDecimal(0);
         if (!customer.getBasket().getProducts().isEmpty()) {
             for (Product product : customer.getBasket().getProducts()) {
@@ -30,7 +19,10 @@ public class CashDesk {
                     System.out.println(LocalDateTime.now().withNano(0) + " THE CHILD IS TRYING TO BUY ALCOHOL!");
                     break;
                 }
-                Double discountCoefficient = getDiscountCoefficient(customer, product);
+                double discountCoefficient = 1;
+                if (discount.getProductType().equals(product.getType())) {
+                    discountCoefficient *= discount.getDiscountForRetired(customer, discount.getDiscount());
+                }
                 Double price = product.getPrice().doubleValue() * discountCoefficient;
                 int productIndex = customer.getBasket().getProducts().indexOf(product);
                 product.setPrice(price.intValue());
@@ -45,10 +37,5 @@ public class CashDesk {
 
     public Integer getAmount() {
         return this.cashAmount.intValue();
-    }
-
-    public void addDiscount(Double discount) {
-        Discount addedDiscount = new Discount(discount);
-        this.discountsList.add(addedDiscount);
     }
 }

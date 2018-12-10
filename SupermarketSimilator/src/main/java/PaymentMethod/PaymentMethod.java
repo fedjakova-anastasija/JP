@@ -1,6 +1,6 @@
 package PaymentMethod;
 
-public class PaymentMethod {
+public class PaymentMethod implements IPaymentMethod {
     private PaymentType paymentType;
 
     public PaymentMethod(String method) {
