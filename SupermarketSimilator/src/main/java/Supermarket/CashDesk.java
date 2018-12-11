@@ -1,12 +1,10 @@
 package Supermarket;
 
 import Customer.Customer;
-import Customer.CustomerType;
 import Discount.Discount;
 import Report.Bill;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 public class CashDesk implements ICashDesk {
     private BigDecimal cashAmount = new BigDecimal(0);
@@ -15,10 +13,6 @@ public class CashDesk implements ICashDesk {
         this.cashAmount = new BigDecimal(0);
         if (!customer.getBasket().getProducts().isEmpty()) {
             for (Product product : customer.getBasket().getProducts()) {
-                if (product.alcoholType() && customer.getType() == CustomerType.CHILD) {
-                    System.out.println(LocalDateTime.now().withNano(0) + " THE CHILD IS TRYING TO BUY ALCOHOL!");
-                    break;
-                }
                 double discountCoefficient = 1;
                 if (discount.getProductType().equals(product.getType())) {
                     discountCoefficient *= discount.getDiscountForRetired(customer, discount.getDiscount());
