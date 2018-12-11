@@ -9,7 +9,6 @@ import java.util.*;
 class SupermarketSimilator {
     public static void main(String[] args) throws CloneNotSupportedException {
         List<String> productTypes = Arrays.asList("product#0", "product#1", "product#2", "product#3", "product#4", "product#5");
-        //List<String> productTypes = Arrays.asList("product#4", "product#5");
         List<String> customerTypes = Arrays.asList("child", "adult", "retired");
         List<String> paymentMethods = Arrays.asList("card", "cash", "bonuses");
 

@@ -1,18 +1,36 @@
 package Discount;
 
-public class DiscountTest {
-/*
-  private double newDiscount = 10.0;
-  private Discount discount = new Discount(newDiscount);
-  private Customer firstCustomer = new Customer("retired", "bonuses");
+import Customer.Customer;
+import org.junit.Assert;
+import org.junit.Test;
 
+import static org.junit.Assert.*;
+
+public class DiscountTest {
   @Test
   public void getDiscount() {
-    Assert.assertEquals(this.discount.getDiscount(), 10.0);
+    double discount = 10.0;
+    String  product = "product#0";
+    Discount newDiscount = new Discount(discount, product);
+    Assert.assertEquals("" + newDiscount.getDiscount(), "10.0");
+  }
+
+  @Test
+  public void getProductType() {
+    double discount = 10.0;
+    String  product = "product#0";
+    Discount newDiscount = new Discount(discount, product);
+    Assert.assertEquals(newDiscount.getProductType(), "product#0");
   }
 
   @Test
   public void getDiscountForRetired() {
-    Assert.assertEquals(this.discount.getDiscountForRetired(firstCustomer, discount), 10.0);
-  }*/
+    Customer firstCustomer = new Customer("child", "card");
+    Customer secondCustomer = new Customer("retired", "bonuses");
+    double discount = 10.0;
+    String  product = "product#0";
+    Discount newDiscount = new Discount(discount, product);
+    Assert.assertEquals("" + newDiscount.getDiscountForRetired(firstCustomer, discount), "1.0");
+    Assert.assertEquals("" + newDiscount.getDiscountForRetired(secondCustomer, discount), "0.9");
+  }
 }
