@@ -1,23 +1,22 @@
 package Supermarket;
 
 import Customer.Customer;
+import Discount.Discount;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.Assert.*;
-
 public class SupermarketTest {
-  private List<Customer> firstCustomersList = new ArrayList<>();
-  private List<Customer> secondCustomersList = new ArrayList<>();
   private Customer firstCustomer = new Customer("adult", "cash");
   private Supermarket supermarket = new Supermarket();
 
   @Test
-  public void getCustomer() {
-    Assert.assertEquals(this.supermarket.getCustomer(0).toString(), "");
+  public void getCustomer() throws CloneNotSupportedException {
+    supermarket.addProduct("product#0", 1, 10, false);
+    Product product = supermarket.getProduct(0);
+    supermarket.addCustomer("adult", "card");
+    Customer customer = supermarket.getCustomer(0);
+    customer.ChooseProduct(product);
+    Assert.assertEquals("" + customer.getBasket().getProducts().size(), "1");
   }
 
   @Test
@@ -31,34 +30,46 @@ public class SupermarketTest {
   }
 
   @Test
-  public void getProduct() {
-  }
-
-  @Test
-  public void getCashDesk() {
+  public void getCashDesk() throws CloneNotSupportedException {
+    supermarket.addProduct("product#0", 1, 10, false);
+    Product product = supermarket.getProduct(0);
+    Discount newDiscount = new Discount(10.0, "product#0");
+    supermarket.addCustomer("adult", "card");
+    Customer customer = supermarket.getCustomer(0);
+    customer.ChooseProduct(product);
+    supermarket.ToCashDesk(0, newDiscount);
+    Assert.assertEquals("" + this.supermarket.getCashDesk().getAmount(), "10");
   }
 
   @Test
   public void getReport() {
+    supermarket.getReport().printReport();
   }
 
   @Test
-  public void addProduct() {
+  public void addProduct() throws CloneNotSupportedException {
     supermarket.addProduct("product#0", 1, 10, false);
-    Assert.assertEquals(supermarket.getProductsCount().intValue(), 1);
+    Product product = supermarket.getProduct(0);
+    this.firstCustomer.ChooseProduct(product);
+    Assert.assertEquals((long) this.firstCustomer.getBasket().getProducts().size(), 1);
   }
 
   @Test
-  public void addCustomer() {
-    supermarket.addCustomer("product#0", "card");
-    Assert.assertEquals(supermarket.getCustomersCount().intValue(), 1);
+  public void addCustomer() throws CloneNotSupportedException {
+    supermarket.addProduct("product#0", 1, 10, false);
+    Product product = supermarket.getProduct(0);
+    supermarket.addCustomer("adult", "card");
+    Customer customer = supermarket.getCustomer(0);
+    customer.ChooseProduct(product);
+    Assert.assertEquals((long) customer.getBasket().getProducts().size(), 1);
   }
 
   @Test
   public void changeProductCount() {
-  }
-
-  @Test
-  public void toCashDesk() {
+    supermarket.addProduct("product#0", 1, 10, false);
+    Product product = supermarket.getProduct(0);
+    Integer units = 1;
+    supermarket.changeProductCount(product.getCount() - units, 0);
+    Assert.assertEquals(product.getCount().intValue(), 0);
   }
 }

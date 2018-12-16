@@ -43,8 +43,8 @@ public class Supermarket implements ISupermarket{
         this.productsList.add(product);
     }
 
-    public void addCustomer(String productType, String paymentMethod) {
-        Customer customer = new Customer(productType, paymentMethod);
+    public void addCustomer(String customerType, String paymentMethod) {
+        Customer customer = new Customer(customerType, paymentMethod);
         this.customersList.add(customer);
         System.out.println(LocalDateTime.now().withNano(0) + " New customer " + customer.getType().toString().toLowerCase() + " 'customer#" + this.customersList.indexOf(customer) + "' arrived");
     }
