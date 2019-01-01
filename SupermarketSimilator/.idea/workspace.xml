@@ -2,9 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9f8b9c-8463-4976-9320-2ab2c361c13c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/PaymentMethod/PaymentMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/SupermarketSimilatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Supermarket/Supermarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Supermarket/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Supermarket/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer/CustomerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer/CustomerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer/IBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer/IBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer/ICustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer/ICustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Discount/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Discount/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Discount/IDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Discount/IDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PaymentMethod/IPaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/IPaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PaymentMethod/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PaymentMethod/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/PaymentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Report/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Report/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Report/IBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Report/IBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Report/IReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Report/IReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Report/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Report/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/CashDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Supermarket/CashDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/ICashDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Supermarket/ICashDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Supermarket/IProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/ISupermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Supermarket/ISupermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Supermarket/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supermarket/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Supermarket/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SupermarketSimilator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/SupermarketSimilator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Customer/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Customer/BasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Customer/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Customer/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Discount/DiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Discount/DiscountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Report/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Report/BillTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Report/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Report/ReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Supermarket/CashDeskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Supermarket/CashDeskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Supermarket/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Supermarket/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Supermarket/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/Supermarket/SupermarketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/lab03/SpreadsheetEngine/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/lab03/SpreadsheetEngine/.idea/workspace.xml" beforeDir="false" />
     </list>
@@ -21,15 +53,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SupermarketSimilator$TestBasket.ic" NAME="TestBasket Coverage Results" MODIFIED="1544362489712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SupermarketSimilator$All_in_SupermarketSimilator.ic" NAME="All in SupermarketSimilator Coverage Results" MODIFIED="1544998193200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SupermarketSimilator$TestCustomer_getBasket.ic" NAME="TestCustomer.getBasket Coverage Results" MODIFIED="1544362084404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SupermarketSimilator$All_in_SupermarketSimilator.exec" NAME="All in SupermarketSimilator Coverage Results" MODIFIED="1545131010111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SupermarketSimilator$IBasketTest.ic" NAME="IBasketTest Coverage Results" MODIFIED="1544433371430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Customer.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SupermarketSimilator$All_in_SupermarketSimilator.ic" NAME="All in SupermarketSimilator Coverage Results" MODIFIED="1546346792534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SupermarketSimilator$SupermarketSimulator.ic" NAME="SupermarketSimulator Coverage Results" MODIFIED="1544375947141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SupermarketSimilator$TestCustomer_getBasket.ic" NAME="TestCustomer.getBasket Coverage Results" MODIFIED="1544362084404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SupermarketSimilator$SupermarketTest_getCustomer.ic" NAME="SupermarketTest.getCustomer Coverage Results" MODIFIED="1545144201267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.Supermarket.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SupermarketSimilator$All_Features_in__java.ic" NAME="All Features in: java Coverage Results" MODIFIED="1545573273825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="51" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="140" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -93,37 +133,42 @@
     <session id="-1895292627">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3074" />
-          <entry key="txt" value="56" />
+          <entry key="java" value="3834" />
+          <entry key="txt" value="72" />
+          <entry key="xml" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3074" />
-          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="JAVA" value="3834" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="XML" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="15" />
-          <entry key="java" value="161" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="22" />
+          <entry key="java" value="192" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="15" />
-          <entry key="JAVA" value="161" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="22" />
+          <entry key="JAVA" value="192" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -131,111 +176,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Customer/Basket.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Customer/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="816">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Customer/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/PaymentMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/PaymentMethod/PaymentMethodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SupermarketSimilator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Customer/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PaymentMethod/PaymentMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/Supermarket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="27" />
-              <folding>
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Supermarket/SupermarketTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SupermarketSimilator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/SupermarketSimilatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="42" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,33 +245,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Supermarket/ProductTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/IPaymentMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/CashDesk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1545741849960" expanded="true" signature="515:1208" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Discount/DiscountTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Supermarket/CashDeskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="21" column="59" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/CashDesk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding>
-                <marker date="1544569329314" expanded="true" signature="467:1160" ph="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -289,9 +290,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addD</find>
-      <find>getProductType</find>
-      <find>for re</find>
       <find>for r</find>
       <find>toca</find>
       <find>getAmount</find>
@@ -306,7 +304,6 @@
       <find>getcus</find>
       <find>getC</find>
       <find>getCus</find>
-      <find>cash</find>
       <find>addC</find>
       <find>getProductsCount</find>
       <find>addpro</find>
@@ -319,6 +316,10 @@
       <find>getCustomer</find>
       <find>getReport</find>
       <find>printReport</find>
+      <find>getPaymentType</find>
+      <find>getPaymentMethod</find>
+      <find>cash</find>
+      <find>com.company.</find>
     </findStrings>
     <replaceStrings>
       <replace>dateFormat.format(date)</replace>
@@ -336,22 +337,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Handler/RandomValues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Supermarket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CashDesk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Handler/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Customer/PaymentMethod/MethodType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Customer/PaymentMethod/PaymentMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Discount/CashPaymentDiscount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Discount/CardPaymentDiscount.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discount/DiscountForAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discount/DiscountType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discount/DiscountForRetired.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/RandomValues.java" />
         <option value="$PROJECT_DIR$/src/main/java/PaymentMethod/PaymentType.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Basket.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBasket.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDiscount.java" />
@@ -386,6 +377,17 @@
         <option value="$PROJECT_DIR$/src/test/java/Supermarket/CashDeskTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Supermarket/Supermarket.java" />
         <option value="$PROJECT_DIR$/src/test/java/Supermarket/SupermarketTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SupermarketSimilatorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/Report/BillTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Supermarket/CashDesk.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/Supermarket/CashDeskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/Customer/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Customer/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/PaymentMethod.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/PaymentMethod/PaymentMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/SupermarketSimilator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/SupermarketSimilatorTest.java" />
       </list>
     </option>
   </component>
@@ -395,17 +397,40 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SupermarketSimilator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="supermarket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SupermarketSimilator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="supermarket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="supermarket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="supermarket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="supermarket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="junit:junit:4.11" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -443,7 +468,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -475,6 +499,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupermarketSimilator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupermarketSimilator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -483,6 +516,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Discount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -491,6 +525,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="PaymentMethod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -499,6 +534,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -507,6 +543,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Supermarket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -528,6 +565,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupermarketSimilator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupermarketSimilator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -536,6 +582,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Discount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -544,26 +591,53 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="PaymentMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupermarketSimilator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupermarketSimilator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupermarketSimilator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupermarketSimilator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Supermarket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupermarketSimilator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544999203968" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546347455276" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -571,15 +645,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.PaymentMethod" />
+      <recent name="" />
       <recent name="Supermarket" />
       <recent name="Discount" />
       <recent name="Customer" />
-      <recent name="Report" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -607,7 +683,7 @@
   </component>
   <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="SupermarketSimilator" />
+      <option name="MAIN_CLASS_NAME" value="com.company.SupermarketSimilator" />
       <module name="SupermarketSimilator" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -621,65 +697,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupermarketTest.addCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CashDeskTest.getAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SupermarketSimilator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Supermarket.*" />
+          <option name="PATTERN" value="com.company.Supermarket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Supermarket" />
-      <option name="MAIN_CLASS_NAME" value="Supermarket.SupermarketTest" />
-      <option name="METHOD_NAME" value="addCustomer" />
+      <option name="PACKAGE_NAME" value="com.company.Supermarket" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Supermarket.CashDeskTest" />
+      <option name="METHOD_NAME" value="getAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupermarketTest.changeProductCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.getPaymentMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SupermarketSimilator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Supermarket.*" />
+          <option name="PATTERN" value="com.company.Customer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Supermarket" />
-      <option name="MAIN_CLASS_NAME" value="Supermarket.SupermarketTest" />
-      <option name="METHOD_NAME" value="changeProductCount" />
+      <option name="PACKAGE_NAME" value="com.company.Customer" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Customer.CustomerTest" />
+      <option name="METHOD_NAME" value="getPaymentMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupermarketTest.getCashDesk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SupermarketSimilator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Supermarket.*" />
+          <option name="PATTERN" value="com.company.PaymentMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Supermarket" />
-      <option name="MAIN_CLASS_NAME" value="Supermarket.SupermarketTest" />
-      <option name="METHOD_NAME" value="getCashDesk" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.company.PaymentMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.company.PaymentMethod.PaymentMethodTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupermarketTest.getCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMethodTest.getPaymentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SupermarketSimilator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Supermarket.*" />
+          <option name="PATTERN" value="com.company.PaymentMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Supermarket" />
-      <option name="MAIN_CLASS_NAME" value="Supermarket.SupermarketTest" />
-      <option name="METHOD_NAME" value="getCustomer" />
+      <option name="PACKAGE_NAME" value="com.company.PaymentMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.company.PaymentMethod.PaymentMethodTest" />
+      <option name="METHOD_NAME" value="getPaymentType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -687,19 +761,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.CashDeskTest.getAmount" />
+      <item itemvalue="JUnit.CustomerTest.getPaymentMethod" />
+      <item itemvalue="JUnit.PaymentMethodTest" />
+      <item itemvalue="JUnit.PaymentMethodTest.getPaymentType" />
       <item itemvalue="JUnit.All in SupermarketSimilator" />
-      <item itemvalue="JUnit.SupermarketTest.addCustomer" />
-      <item itemvalue="JUnit.SupermarketTest.getCashDesk" />
-      <item itemvalue="JUnit.SupermarketTest.changeProductCount" />
-      <item itemvalue="JUnit.SupermarketTest.getCustomer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in SupermarketSimilator" />
-        <item itemvalue="JUnit.SupermarketTest.getCustomer" />
-        <item itemvalue="JUnit.SupermarketTest.getCashDesk" />
-        <item itemvalue="JUnit.SupermarketTest.changeProductCount" />
-        <item itemvalue="JUnit.SupermarketTest.addCustomer" />
+        <item itemvalue="JUnit.PaymentMethodTest.getPaymentType" />
+        <item itemvalue="JUnit.CashDeskTest.getAmount" />
+        <item itemvalue="JUnit.CustomerTest.getPaymentMethod" />
+        <item itemvalue="JUnit.PaymentMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -716,6 +790,8 @@
       <workItem from="1543425107100" duration="54290000" />
       <workItem from="1544041376621" duration="424000" />
       <workItem from="1544041830384" duration="29792000" />
+      <workItem from="1545134132033" duration="24167000" />
+      <workItem from="1546346735797" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Добавила первый таск">
       <created>1543425228197</created>
@@ -780,43 +856,50 @@
       <option name="project" value="LOCAL" />
       <updated>1544570760069</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавила тесты">
+      <created>1544999297139</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544999297139</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SupermarketTest_changeProductCount - 2018.12.17 at 00h 29m 13s.xml">
-      <configuration name="SupermarketTest.changeProductCount" configurationId="JUnit" />
+    <history-entry file="PaymentMethodTest - 2018.12.25 at 15h 27m 52s.xml">
+      <configuration name="PaymentMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupermarketTest_changeProductCount - 2018.12.17 at 00h 36m 16s.xml">
-      <configuration name="SupermarketTest.changeProductCount" configurationId="JUnit" />
+    <history-entry file="CustomerTest_getPaymentMethod - 2018.12.25 at 15h 28m 02s.xml">
+      <configuration name="CustomerTest.getPaymentMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SupermarketSimilator - 2018.12.17 at 00h 36m 36s.xml">
-      <configuration name="All in SupermarketSimilator" configurationId="JUnit" />
+    <history-entry file="CustomerTest_getPaymentMethod - 2018.12.25 at 15h 29m 01s.xml">
+      <configuration name="CustomerTest.getPaymentMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupermarketTest_getCashDesk - 2018.12.17 at 00h 40m 16s.xml">
-      <configuration name="SupermarketTest.getCashDesk" configurationId="JUnit" />
+    <history-entry file="CashDeskTest_getAmount - 2018.12.25 at 15h 46m 44s.xml">
+      <configuration name="CashDeskTest.getAmount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SupermarketSimilator - 2018.12.17 at 01h 00m 19s.xml">
-      <configuration name="All in SupermarketSimilator" configurationId="JUnit" />
+    <history-entry file="CashDeskTest_getAmount - 2018.12.25 at 15h 46m 56s.xml">
+      <configuration name="CashDeskTest.getAmount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupermarketTest_getCashDesk - 2018.12.17 at 01h 03m 53s.xml">
-      <configuration name="SupermarketTest.getCashDesk" configurationId="JUnit" />
+    <history-entry file="PaymentMethodTest_getPaymentType - 2018.12.25 at 16h 04m 03s.xml">
+      <configuration name="PaymentMethodTest.getPaymentType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SupermarketSimilator - 2018.12.17 at 01h 04m 10s.xml">
-      <configuration name="All in SupermarketSimilator" configurationId="JUnit" />
+    <history-entry file="PaymentMethodTest_getPaymentType - 2018.12.25 at 16h 04m 18s.xml">
+      <configuration name="PaymentMethodTest.getPaymentType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupermarketTest_getCustomer - 2018.12.17 at 01h 08m 23s.xml">
-      <configuration name="SupermarketTest.getCustomer" configurationId="JUnit" />
+    <history-entry file="PaymentMethodTest_getPaymentType - 2018.12.25 at 16h 12m 19s.xml">
+      <configuration name="PaymentMethodTest.getPaymentType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupermarketTest_getCustomer - 2018.12.17 at 01h 09m 48s.xml">
-      <configuration name="SupermarketTest.getCustomer" configurationId="JUnit" />
+    <history-entry file="PaymentMethodTest_getPaymentType - 2018.12.25 at 16h 14m 41s.xml">
+      <configuration name="PaymentMethodTest.getPaymentType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SupermarketSimilator - 2018.12.17 at 01h 10m 01s.xml">
+    <history-entry file="All_in_SupermarketSimilator - 2019.01.01 at 15h 46m 42s.xml">
       <configuration name="All in SupermarketSimilator" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84506000" />
+    <option name="totallyTimeSpent" value="109383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,7 +914,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29068825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -840,7 +923,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.88434166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.66548043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.386121" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -848,19 +931,19 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.3291815" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38434163" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.94483984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3291815" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5177936" side_tool="true" weight="0.24939272" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5218579" side_tool="true" weight="0.24939272" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.4822064" weight="0.24939272" />
+      <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.47814208" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49822065" weight="0.32955465" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.33096084" weight="0.32955465" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.3890411" weight="0.32955465" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -887,209 +970,98 @@
     <MESSAGE value="Добавила main класс" />
     <MESSAGE value="Добавила тесты" />
     <MESSAGE value="изменила программу" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменила программу" />
+    <MESSAGE value="добавила тесты" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавила тесты" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="fourthCustomer.customerType" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/RandomValues.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestDiscount.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBasket.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCustomer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="264" column="12" selection-start-line="264" selection-start-column="12" selection-end-line="264" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/List.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Cloneable.java" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/TestBasket.class" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/TestCustomer.class" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/TestDiscount.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SupermarketSimulator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Basket.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="221" column="28" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Customer/IBasketTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Customer/IBasket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Customer/IBasket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Customer/ICustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Customer/ICustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Discount/IDiscount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Discount/IDiscount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentMethod/IPaymentMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentMethod/PaymentType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/PaymentType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Report/IBill.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Report/IBill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Report/IReport.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Report/IReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/ICashDesk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/ICashDesk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/IProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/IProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/ISupermarket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/ISupermarket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Report/ReportTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Report/ReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Customer/CustomerType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Report/BillTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Discount/Discount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Customer/BasketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Report/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,81 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Report/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Supermarket/CashDeskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Customer/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Customer/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentMethod/PaymentMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Customer/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runner/notification/Failure.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1182,110 +1079,253 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Report/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Supermarket/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Discount/DiscountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="59" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/Supermarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Supermarket/SupermarketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Report/BillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Report/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Customer/BasketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Customer/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Discount/Discount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Customer/CustomerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="141">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="90">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="116">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/CashDesk.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="4374">
+          <caret line="340" selection-start-line="14" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Customer/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Customer/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/PaymentMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PaymentMethod/IPaymentMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Supermarket/CashDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
-            <marker date="1544569329314" expanded="true" signature="467:1160" ph="{...}" />
+            <marker date="1545741849960" expanded="true" signature="515:1208" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Discount/DiscountTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/Supermarket/CashDeskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" column="59" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Supermarket/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Supermarket/Supermarket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SupermarketSimilator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="42" />
+        <state relative-caret-position="459">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Supermarket/SupermarketTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/PaymentMethod/PaymentMethodTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="202">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/SupermarketSimilatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SupermarketSimilator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1329,7 +1369,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1366,6 +1406,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
