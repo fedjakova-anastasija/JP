@@ -6,19 +6,9 @@ import java.util.*;
 
 public class SpreadsheetHandler {
     private Spreadsheet spreadsheet;
-    private HashMap<String, Command> commands;
 
     public SpreadsheetHandler(Spreadsheet spreadsheet) throws Exception {
         this.spreadsheet = spreadsheet;
-        commands = new HashMap<>();
-        commands.put("set", this::setValue);
-        commands.put("setformula", this::setFormula);
-        commands.put("display", input -> this.spreadsheet.display());
-
-        this.start();
-    }
-
-    private void start() throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String line = "";
         while (!line.equals("exit")) {
@@ -26,79 +16,69 @@ public class SpreadsheetHandler {
             line = reader.readLine();
             String[] input = line.split(" ");
 
-            if ((input[0].equals("set") || input[0].equals("setformula"))) {
-                if (input.length < 3)
-                {
-                    System.out.println("Возможные команды: set/setformula cell number/formula");
-                    continue;
-                }
-                PairStruct pair = getVariableInfo(input[1]);
-                if (input[1].length() < 2 || pair.symbol < 'A' || pair.symbol > 'Z') {
-                    System.out.println("Возможные команды: set/setformula cell number/formula");
-                    continue;
-                }
-            }
+            if (!isInputCorrect(input)) continue;
 
-            if (input[0].equals("setformula")) {
-                PairStruct pair = getVariableInfo(input[1]);
-                List<String> items = Arrays.asList(input);
-                items = items.subList(1, 3);
-                if (!isCorrectFormula(items)) {
-                    throw new Exception("[ERR] wrong formula");
-                }
-                spreadsheet.setValue(pair, "formula " + items.get(1));
-
-                StringBuilder formula = new StringBuilder();
-                for (int i = 2; i < input.length; ++i) {
-                    formula.append(input[i]).append(" ");
-                }
-                input[2] = formula.toString();
-            }
-
-            if (input[0].equals("set")) {
-                PairStruct pair = getVariableInfo(input[1]);
-                spreadsheet.setValue(pair, input[2]);
-                System.out.println("Вывод: OK");
-            }
-
-            if (commands.containsKey(input[0])) {
-                commands.get(input[0]).runCommand(input);
-            } else {
-                System.out.println("Возможные команды: set/setformula/display/exit");
+            switch (input[0]) {
+                case "set":
+                    getAnswer(input,"set");
+                    break;
+                case "setformula":
+                    getAnswer(input,"setformula");
+                    break;
+                case "display":
+                    this.spreadsheet.display();
+                    break;
             }
         }
     }
 
-    private void setValue(String[] input) throws Exception {
-       /* PairStruct pair = getVariableInfo(input[1]);
-        spreadsheet.setValue(pair, input[2]);
-        System.out.println("Вывод: OK");*/
-    }
-
-    private void setFormula(String[] input) throws Exception {
-       /* PairStruct pair = getVariableInfo(input[1]);
-        List<String> items = Arrays.asList(input);
-        items = items.subList(1, 3);
-        if (!isCorrectFormula(items)) {
-            throw new Exception("[ERR] wrong formula");
-        }
-        spreadsheet.setValue(pair, "formula " + items.get(1));
-        System.out.println("Вывод: OK");*/
-    }
-
-    private static boolean isDouble(String s) {
+    private boolean isInputCorrect(String[] input) {
         try {
-            Double.parseDouble(s);
-            return true;
-        } catch (NumberFormatException e) {
+            if ((input[0].equals("set") || input[0].equals("setformula"))) {
+                if (input.length < 3) {
+                    throw new Exception("Возможные команды: set/setformula cell number/formula");
+                }
+                Cell cell = getCell(input[1]);
+                if (input[1].length() < 2 || cell == null || cell.letter < 'A' || cell.letter > 'Z') {
+                    throw new Exception("Возможные команды: set/setformula cell number/formula");
+                }
+            }
+            if (!input[0].equals("display") && !input[0].equals("set") && !input[0].equals("setformula")) {
+                    throw new Exception("Возможные команды: set/setformula cell number/formula");
+            }
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
             return false;
         }
+        return true;
+    }
+
+    private void getAnswer(String[] input, String item) throws Exception {
+        Cell cell = getCell(input[1]);
+        if (item.equals("set")) {
+            spreadsheet.setValue(cell, input[2]);
+        }
+        else {
+            StringBuilder formula = new StringBuilder();
+            for (int i = 2; i < input.length; ++i) {
+                formula.append(input[i]).append(" ");
+            }
+            input[2] = formula.toString();
+            List<String> items = Arrays.asList(input);
+            items = items.subList(1, 3);
+            if (!isCorrectFormula(items)) {
+                throw new Exception("Возможные команды: set/setformula cell number/formula");
+            }
+            spreadsheet.setValue(cell, "formula " + items.get(1));
+
+        }
+        System.out.println("Вывод: OK");
     }
 
     private boolean isCorrectFormula(List<String> input) throws Exception {
         String formula = input.get(1).replaceAll("\\(|\\)|\\[|\\]", " ");
         String[] prefixes = formula.split(" ");
-        Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<>();
         for (int i = prefixes.length - 1; i > -1; i--) {
             String prefix = prefixes[i];
             if (prefix.equals("")) {
@@ -114,10 +94,11 @@ public class SpreadsheetHandler {
                 if (input.get(0).equals(prefix)) {
                     return false;
                 }
-                if (!isDouble(prefix)) {
-                    PairStruct cell = getVariableInfo(prefix);
+
+                if (!prefix.matches("[-+]?\\d+")) {
+                    Cell cell = getCell(prefix);
                     if (spreadsheet.isFormula(cell)) {
-                        List<String> items = new ArrayList<String>();
+                        List<String> items = new ArrayList<>();
                         items.add(input.get(0));
                         items.add(spreadsheet.getFormula(cell));
 
@@ -138,16 +119,18 @@ public class SpreadsheetHandler {
         return true;
     }
 
-    private PairStruct getVariableInfo(String variable) {
-        PairStruct pair = new PairStruct();
+    private Cell getCell(String variable) {
+        Cell cell = new Cell();
         Character symbol = variable.charAt(0);
-        String newStr = variable.substring(1, variable.length());
+        String newStr = variable.substring(1);
+        if (newStr.matches("[-+]?\\d+")){
+            Integer number;
+            number = Integer.parseInt(newStr);
 
-        Integer number;
-        number = Integer.parseInt(newStr);
-
-        pair.symbol = symbol;
-        pair.number = number;
-        return pair;
+            cell.letter = symbol;
+            cell.position = number;
+            return cell;
+        }
+        return null;
     }
 }
