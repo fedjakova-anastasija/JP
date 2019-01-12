@@ -1,7 +1,7 @@
 package com.company.cell;
 
-import com.company.table.Position;
-import com.company.table.Maths;
+import com.company.spreadsheet.Position;
+import com.company.spreadsheet.Maths;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public final class Formula extends Cell<Cell> {
 
   @Override
   public Cell get() {
-    return super.get() == null ? new Str() : super.get();
+    return super.get() == null ? new Str(ERROR) : super.get();
   }
 
   @Override

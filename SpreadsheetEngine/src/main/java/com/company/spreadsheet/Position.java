@@ -1,4 +1,4 @@
-package com.company.table;
+package com.company.spreadsheet;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,7 +19,7 @@ public class Position {
             final int column = columnToNumber(matcher.group(2));
             final int row = Integer.parseUnsignedInt(matcher.group(3));
             return new Position(column, row);
-        } catch (Exception e) {
+        } catch (Exception ex) {
             throw new IllegalArgumentException("Invalid cell address format");
         }
     }
@@ -27,7 +27,7 @@ public class Position {
     public static boolean parseAttempt(String str) {
         try {
             analysis(str);
-        } catch (Exception e) {
+        } catch (Exception ex) {
             return false;
         }
         return true;

@@ -1,4 +1,4 @@
-package com.company.table;
+package com.company.spreadsheet;
 
 import java.util.ArrayList;
 import java.util.List;

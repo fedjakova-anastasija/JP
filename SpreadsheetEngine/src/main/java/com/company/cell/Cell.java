@@ -33,7 +33,7 @@ public abstract class Cell<Cell> {
       if (val == null) {
         return false;
       }
-    } catch (Exception e) {
+    } catch (Exception ex) {
       return false;
     }
     return true;

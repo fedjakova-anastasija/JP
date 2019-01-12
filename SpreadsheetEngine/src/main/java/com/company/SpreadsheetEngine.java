@@ -2,9 +2,9 @@ package com.company;
 
 import com.company.operation.Operation;
 import com.company.operation.OperationCollection;
-import com.company.table.Position;
-import com.company.table.ShowSpreadsheet;
-import com.company.table.Spreadsheet;
+import com.company.spreadsheet.Position;
+import com.company.spreadsheet.ShowSpreadsheet;
+import com.company.spreadsheet.Spreadsheet;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -38,7 +38,7 @@ public class SpreadsheetEngine {
         }
         System.out.print("Ввод: ");
       }
-      System.out.print("Вывод: OK");
+      System.out.print("Вывод: OK. Введите новую команду или exit, чтобы выйти!");
     } catch (Exception ex) {
       System.out.println(ex.getMessage());
     }
@@ -50,12 +50,20 @@ public class SpreadsheetEngine {
         throw new Exception("Вывод: Ошибка!");
       }
       if (command.equals("set")) {
-        spreadsheet.set(Position.analysis(position), input);
+        try {
+          spreadsheet.set(Position.analysis(position), input);
+          System.out.println("Вывод: OK. Введите новую команду или exit, чтобы выйти!");
+        } catch (Exception ex) {
+          System.out.println("Вывод: Ошибка null!");
+        }
+      } else {
+        try {
+          spreadsheet.formula(Position.analysis(position), input);
+          System.out.println("Вывод: OK. Введите новую команду или exit, чтобы выйти!");
+        } catch (Exception ex) {
+          System.out.println("Вывод: Ошибка null!");
+        }
       }
-      else {
-        spreadsheet.formula(Position.analysis(position), input);
-      }
-      System.out.println("Вывод: OK");
     } catch (Exception ex) {
       System.out.println(ex.getMessage());
     }

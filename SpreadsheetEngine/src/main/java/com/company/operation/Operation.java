@@ -14,8 +14,11 @@ public class Operation implements OperationCollection {
     if (line == null) {
       return operation;
     }
+    if (line.equals("")) {
+      return operation;
+    }
     try {
-      operation.parseCommand(line);
+      operation.parseOperation(line);
       if (operation.operationType == OperationType.ERROR) {
         throw new Exception("Вывод: Ошибка!");
       }
@@ -38,7 +41,7 @@ public class Operation implements OperationCollection {
     return spreadsheetValue;
   }
 
-  private void parseCommand(String input) {
+  private void parseOperation(String input) {
     Matcher matcher = Pattern.compile(" *([\\S]+) *([a-zA-Z0-9]+)* *([\\S ]+)* *").matcher(input);
     matcher.find();
     operationType = OperationType.ERROR;

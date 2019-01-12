@@ -5,7 +5,7 @@
     <artifactId>SpreadsheetEngine</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>com.company.SpreadsheetEngine</name>
+    <name>SpreadsheetEngine</name>
     <url>http://maven.apache.org</url>
 
     <build>
@@ -59,7 +59,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.company.SpreadsheetEngine</mainClass>
+                            <mainClass>SpreadsheetEngine</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
